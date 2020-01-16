@@ -1,0 +1,205 @@
+/*********** Main Structure ***********/
+* {
+    box-sizing: border-box;
+}
+
+#mySketch{
+    width: 800px;
+    height: 250px;
+    border: 1px solid black;
+    margin: auto;
+    background-color: #dfd8dc;
+}
+
+body{
+    padding-top: 50px;
+    margin: auto;
+    text-align: center;
+    background: rgb(119,156,175);
+    background: linear-gradient(317deg, rgba(119,156,175,1) 27%, rgba(150,182,197,1) 52%, rgba(190,219,232,1) 85%);
+    }
+
+header{
+    align-content: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 30px;
+    margin: auto;
+}
+
+main{
+    max-width: 1200px;
+    max-height: auto;
+}
+
+#content{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: center;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.finalproject, .research, .assignment{
+    margin-left: 30px;
+    width: 300px;
+    background-color: #dfd8dc;
+    padding: 20px;
+}
+
+footer{
+    text-align: center; 
+    width: auto;
+    height: 100px;
+    background-color: #dfd8dc;
+}
+
+
+/*********** Typography *************/
+
+h1{
+    font-size: 30px;
+    color: black;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    text-align: left; 
+    line-height: 1.2em;
+    padding-left: 100px;
+}
+
+h2{
+    font-size: 20px;
+    color: black;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: left; 
+    padding-left: 100px;
+}
+
+h3, a, p, ul, li{
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h3{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.3em;
+    text-align: justify; 
+}
+
+a, ul, li{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.2em;
+    text-align: left; 
+    list-style-type: none;
+}
+
+p{
+    text-align: center; 
+    padding: 20px;
+    text-decoration:none; 
+}
+
+#link a{
+    background-color: #555;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/*********** Navigation *************/
+nav ul {
+	margin: 0;
+	padding: 0;
+	background-color: #dfd8dc;
+  }
+  
+nav li a {
+	display: block;
+	color: black;
+	padding: 8px 16px;
+	text-decoration: none;
+  }
+  
+  /* link color on hover */
+nav li a:hover{
+	background-color: #555;
+	color: white;
+  }
+
+  
+#link a:hover{
+    background-color: whitesmoke;
+    color: #555;
+}
+
+/*********** Different Media *************/
+
+@media all and (max-width: 1200px){
+    main{
+        min-width: 800px;
+    }
+
+    body{
+        background: rgb(130,76,128);
+        background: linear-gradient(317deg, rgba(130,76,128,1) 28%, rgba(229,180,225,1) 74%, rgba(244,218,247,1) 100%);
+    }
+    
+    #mySketch{
+        width: 800px;
+        height: 250px;
+        border: 1px solid black;
+    }
+
+    #content, #link a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        padding: 5px;
+        display: block;
+    }
+
+    .finalproject, .research, .assignment{
+        margin:auto;
+        text-align: center;
+    }
+
+    h1{
+        font-size: 30px;
+        text-align: left;
+    }
+
+    h2{
+        font-size: 20px;
+        text-align: left;
+    }
+
+    footer{
+        text-align: center; 
+        align-items: center;
+        width: auto;
+        height: auto;
+        padding: 0;
+    }
+
+    #link a:hover{
+        background-color: whitesmoke;
+        color: #555;
+    }
+
+    header{
+        width: auto;
+        align-items: center;
+    }
+  
