@@ -1,0 +1,81 @@
+/*********** Main Structure ***********/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    padding: 0px 20px 0px 20px;
+    text-align: center;    
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    max-width: 1200px;
+    max-height: auto;
+}
+}
+
+footer{
+    text-align: center; 
+    width: auto;
+    height: 100px;
+    background-color: #dfd8dc;
+}
+/************ Background *************/
+
+body {
+    background-color: #9dbad5;
+}
+
+main {
+    background-color: #faf3dd;
+}
+
+
+
+/*********** Typography *************/
+
+
+h1{
+    font-size: 40px;
+    color: #faf3dd;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+
+p{
+    font-size: 15px;
+	line-height: 1.3em;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+	color: #003554;
+}
+
+/*********** Navigation *************/
+
+  
+a:hover{
+    background-color: whitesmoke;
+    color: #555;
+    
+}
+
+a{
+    background-color: #555;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
