@@ -19,14 +19,13 @@ img {
 main {
     max-width: 1200px;
     max-height: auto;
-}
+    padding: 20px;
 }
 
 footer{
     text-align: center; 
     width: auto;
     height: 100px;
-    background-color: #dfd8dc;
 }
 /************ Background *************/
 
