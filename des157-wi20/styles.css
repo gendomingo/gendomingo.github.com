@@ -59,8 +59,8 @@ footer{
 /*********** Typography *************/
 
 h1{
-    font-size: 40px;
-    color: #799fcb;
+    font-size: 50px;
+    color: #2274a5;
     font-family: 'Merriweather Sans', sans-serif;
     font-weight: bold;
     text-align: center;
@@ -70,19 +70,19 @@ h1{
 
 h2{
     font-size: 30px;
-    color: #FFDFD3;
+    color: #FD982A;
     font-family: 'Nanum Gothic', sans-serif;
     text-align: center;
     
 }
 
 h3, a, p, ul, li{
-    color: #799fcb;
+    color: #2274a5;
     font-family: 'Ubuntu', sans-serif;
 }
 
 h3{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     line-height: 1.2em;
     text-align: center;
