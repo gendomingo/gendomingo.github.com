@@ -59,8 +59,8 @@ footer{
 /*********** Typography *************/
 
 h1{
-    font-size: 30px;
-    color: black;
+    font-size: 40px;
+    color: #FFDFD3;
     font-family: 'Anton', sans-serif;
     font-weight: bold;
     text-align: center;
@@ -69,15 +69,15 @@ h1{
 }
 
 h2{
-    font-size: 20px;
-    color: black;
+    font-size: 30px;
+    color: #FFDFD3;
     font-family: 'Nanum Gothic', sans-serif;
     text-align: center;
     
 }
 
 h3, a, p, ul, li{
-    color: black;
+    color: #FFDFD3;
     font-family: 'Ubuntu', sans-serif;
 }
 
