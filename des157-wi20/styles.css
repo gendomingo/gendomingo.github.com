@@ -60,7 +60,7 @@ footer{
 
 h1{
     font-size: 50px;
-    color: #2274a5;
+    color: #233F9C;
     font-family: 'Merriweather Sans', sans-serif;
     font-weight: bold;
     text-align: center;
@@ -69,27 +69,27 @@ h1{
 }
 
 h2{
-    font-size: 30px;
-    color: #FD982A;
+    font-size: 20px;
+    color: #B29DD9;
     font-family: 'Nanum Gothic', sans-serif;
     text-align: center;
     
 }
 
 h3, a, p, ul, li{
-    color: #2274a5;
+    color: #233F9C;
     font-family: 'Ubuntu', sans-serif;
 }
 
 h3{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     line-height: 1.2em;
     text-align: center;
 }
 
 a, ul, li{
-    font-size: 16px;
+    font-size: 15px;
     font-weight: normal;
     line-height: 1.2em;
     text-align: center; 
