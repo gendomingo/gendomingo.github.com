@@ -60,8 +60,8 @@ footer{
 
 h1{
     font-size: 40px;
-    color: #FFDFD3;
-    font-family: 'Anton', sans-serif;
+    color: #799fcb;
+    font-family: 'Merriweather Sans', sans-serif;
     font-weight: bold;
     text-align: center;
     line-height: 1.2em;
@@ -77,7 +77,7 @@ h2{
 }
 
 h3, a, p, ul, li{
-    color: #FFDFD3;
+    color: #799fcb;
     font-family: 'Ubuntu', sans-serif;
 }
 
