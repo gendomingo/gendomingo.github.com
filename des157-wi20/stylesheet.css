@@ -1,0 +1,131 @@
+* {
+	margin: 0; 
+	padding: 0;
+}
+
+/*********** Main Structure ***********/
+
+body{
+    background: black;
+}
+
+header {
+    margin: auto;
+    width: 60%;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+header div {
+    text-align: center;
+    margin: auto;
+
+}
+
+section {
+    padding: 20px 60px 25px 60px;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    background-color: rgb(233, 233, 233);
+}
+
+#mySketch{
+    width: 800px;
+    height: 250px;
+    border: solid;
+    border-width: 1px;
+}
+
+/*********** Typography *************/
+
+h1 {
+    font-family: 'Merriweather Sans', sans-serif;
+    letter-spacing: 4px;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 500;
+    font-size: 14pt;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+
+h3 {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 400;
+    font-size: 16pt;
+    color: #eaa220;
+    margin-bottom: 5px;
+    padding-top: 10px;
+}
+
+
+/************** links ***************/
+
+.content {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+}
+
+.content .box {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content .box ul li {
+    line-height: 1.75em;
+}
+
+.content .box ul li ol li a {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: black;
+    font-size: 15px;
+    padding: 8px 5px;
+    
+}
+
+.content .box ul li ol li a:hover {
+    background-color: rgb(224, 206, 91);
+    color: whitesmoke;
+}
+
+ol, ul, a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.link a,p{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12pt;
+    font-family: 'Merriweather Sans', sans-serif;
+    line-height: 3em;
+    letter-spacing: 2px;
+}
+
+.link a:hover {
+    color: #555;
+}
+
+/************** footer ************/
+footer {
+    background-color: rgb(112, 176, 177);
+    padding: 30px 30px 30px 30px;
+    text-align: center;
+}
+
+
