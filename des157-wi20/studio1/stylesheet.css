@@ -73,7 +73,7 @@ input {
 .visible {
     display: block;
     position: fixed;
-    top: 10px;
+    top: 160px;
     left: 50px;
     width: 400px;
     padding: 50px;
@@ -95,11 +95,9 @@ input {
 }
 
 /************** footer ************/
-
-footer {
+.link {
     background-color: rgb(112, 176, 177);
-    padding: 10px 10px 10px 10px;
-    text-align: center;
+    padding: 30px;
 }
 
 .link a,p{
@@ -115,5 +113,3 @@ footer {
 .link a:hover {
     color: #555;
 }
-
-
