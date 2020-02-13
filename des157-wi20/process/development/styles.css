@@ -21,7 +21,7 @@ img {
     padding-bottom: 20px;
 }
 body{
-    background: black;
+    background: white;
 }
 
 
@@ -68,12 +68,12 @@ h3 {
     padding-right: 30px;
     text-align: center;
 }
-div p{
+#paragpraph{
     font-family: 'Hind Siliguri', sans-serif;
     font-weight: 300;
     font-size: 12pt;
-    color: #555;
-    text-align: center;
+    color:#555;
+    text-align: justify;
     line-height: 1.5em;
 
 }

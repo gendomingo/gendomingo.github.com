@@ -16,7 +16,7 @@ body{
 }
 
 
-div{
+div, article{
     width: 1000px;
 	padding: 10px;
 	margin: auto;
@@ -32,14 +32,6 @@ h3{
     align-content: center;
     text-align: left;
     
-}
-
-article{
-    width: 1000px;
-	padding: 10px;
-	margin: auto;
-	display: block;
-    align-content: center;
 }
 
 .center {
@@ -80,7 +72,7 @@ h3 {
     color: rgb(224, 206, 91);
     margin-bottom: 5px;
     padding-right: 30px;
-    text-align: left;
+    text-align: center;
 }
 
 .paragraph p{
@@ -93,6 +85,15 @@ h3 {
 }
 
 .citations p{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 300;
+    font-size: 10pt;
+    color: #555;
+    text-align: left;
+    line-height: 1.5em;
+}
+
+article p{
     font-family: 'Hind Siliguri', sans-serif;
     font-weight: 300;
     font-size: 10pt;
