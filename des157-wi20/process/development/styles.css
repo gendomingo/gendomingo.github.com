@@ -84,12 +84,12 @@ h3 {
 
 /************** footer ************/
 .link {
-    background-color: rgb(112, 176, 177);
+    
     padding: 20px;
 }
 
 .link a,p{
-    color: white;
+    color: #555;
     text-align: center;
     text-decoration: none;
     font-size: 12pt;
@@ -99,7 +99,7 @@ h3 {
 }
 
 .link a:hover {
-    color: #555;
+    color: rgb(112, 176, 177);
 }
 
 /************ navigation **************/
