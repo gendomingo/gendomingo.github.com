@@ -1,6 +1,3 @@
-/*********** Main Structure ***********/
-
-
 * {
 	margin: 0; 
 	padding: 0;
@@ -14,27 +11,29 @@ header {
     text-align: center;
 }
 
-img {
-	display: block;
-	margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 20px;
-}
 body{
-    background: black;
+    background: white;
 }
 
 
 div{
     width: 1000px;
-	padding: 20px;
+	padding: 10px;
 	margin: auto;
 	display: block;
     align-content: center;
     background-color: white;
 }
 
-
+h3{
+    width: 1000px;
+	padding: 20px;
+	margin: auto;
+	display: block;
+    align-content: center;
+    text-align: left;
+    
+}
 /*********** Typography *************/
 
 h1 {
@@ -61,26 +60,31 @@ h2 {
 
 h3 {
     font-family: 'Hind Siliguri', sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 16pt;
     color: rgb(224, 206, 91);
     margin-bottom: 5px;
     padding-right: 30px;
-    text-align: center;
+    text-align: left;
 }
-div p{
+
+.paragraph p{
     font-family: 'Hind Siliguri', sans-serif;
     font-weight: 300;
     font-size: 12pt;
-    color: #555;
-    text-align: center;
+    color:#555;
+    text-align: justify;
     line-height: 1.5em;
-
 }
 
-
-
-
+.citations p{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 300;
+    font-size: 10pt;
+    color: #555;
+    text-align: left;
+    line-height: 1.5em;
+}
 
 /************** footer ************/
 .link {
