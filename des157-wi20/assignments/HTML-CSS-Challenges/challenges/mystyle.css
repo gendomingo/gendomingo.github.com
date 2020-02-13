@@ -1,0 +1,119 @@
+/*********** Main Structure ***********/
+
+body, footer {
+    margin: auto;
+    padding: 0px 20px 0px 20px;
+    text-align: center;    
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    padding: 30px;
+}
+
+/************ Background *************/
+
+body {
+    background-color: #9dbad5;
+}
+
+main {
+    background-color: #faf3dd;
+}
+
+.background{
+    background-image: url("images/yellow.jpg");
+    background-size: cover;
+    
+}
+
+header, footer{
+    padding: 10px;
+    background: rgb(181,159,209);
+    background: linear-gradient(90deg, rgba(181,159,209,1) 30%, rgba(206,157,217,1) 64%, rgba(245,225,253,1) 100%);
+}
+
+
+/*********** Typography *************/
+
+h1{
+    font-size: 40px;
+    color: #faf3dd;
+    font-family: 'Libre Baskerville', serif;
+}
+
+h1, h2{
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p{
+    font-size: 15px;
+	line-height: 1.3em;
+	text-align: center;
+}
+
+h2, p,a{
+    font-family: 'Lato', sans-serif;
+	color: #003554;
+}
+
+/*********** Navigation *************/
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: gray;
+  }
+  
+nav li a {
+	display: block;
+	color: #faf3dd;
+	padding: 8px 16px;
+	text-decoration: none;
+  }
+  
+  /* link color on hover */
+nav li a:hover {
+	background-color: #555;
+	color: #9dbad5;
+  }
+
+/*********** Different Media *************/
+
+  @media only screen and (min-width: 600px){
+    main {
+      display: flex;
+      justify-content: space-between;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+   }
+
+    article {
+       width: 30%;
+   }
+
+   nav ul {
+    display: flex;
+   }
+    
+   nav li {
+    flex: 1;
+    border-right: 3px solid white;
+   }
+
+   nav ul li:last-of-type a {
+    border-right: none;
+}
+}
