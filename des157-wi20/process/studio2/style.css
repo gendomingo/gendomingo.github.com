@@ -1,0 +1,351 @@
+@-webkit-keyframes swinging {
+  0% {
+    -webkit-transform: rotate(10deg);
+  }
+  50% {
+    -webkit-transform: rotate(-5deg)
+  }
+  100% {
+    -webkit-transform: rotate(10deg);
+  }
+}
+
+@keyframes swinging {
+  0% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(-5deg)
+  }
+  100% {
+    transform: rotate(10deg);
+  }
+}
+
+.swinging{
+  -webkit-transform-origin: 50% 200px;
+  transform-origin: 50% 200px;
+  -webkit-animation: swinging .75s ease-in-out forwards infinite;
+  animation: swinging .75s ease-in-out forwards infinite;
+}
+
+body {
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+  color: #555;
+  background: #F2D7B4
+}
+
+
+#image {
+  position: relative;
+}
+
+
+#topSpot {
+  position: absolute;
+  width: 350px;
+  height: 200px;
+  top: 50px;
+  left: 0px;
+  opacity: 100%;
+  background-image: url(images/bar.svg);
+  background-repeat: no-repeat;
+  background-position: 70%;
+  background-size: 50px;
+}
+
+#leftSpot {
+  position: absolute;
+  width: 175px;
+  height: 150px;
+  top: 165px;
+  left: 50px;
+  opacity: 100%;
+  background-image: url(images/bar.svg);
+  background-repeat: no-repeat;
+  background-position: 70%;
+  background-size: 50px;
+}
+
+#rightSpot {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 165px;
+  left: 190px;
+  opacity: 100%;
+  background-image: url(images/bar.svg);
+  background-repeat: no-repeat;
+  background-position: 70%;
+  background-size: 50px;
+}
+
+#overlayTwo {
+  top: 0;
+  text-align: center;
+  padding-top: 5em;
+  padding-left: 5em;
+  padding-right: 5em;
+  display: none;
+  position: absolute;
+  max-width: 100%;
+  min-height: 100%;
+  background-image: url(images/background.svg);
+  background-repeat: no-repeat;
+}
+
+#overlayThree {
+  top: 0;
+  text-align: center;
+  padding-top: 5em;
+  padding-left: 5em;
+  padding-right: 5em;
+  display: none;
+  position: absolute;
+  max-width: 100%;
+  min-height: 100%;
+  background-image: url(images/background.svg);
+  background-repeat: no-repeat;
+}
+
+#overlay {
+  top: 0;
+  text-align: center;
+  padding-top: 5em;
+  padding-left: 5em;
+  padding-right: 5em;
+  display: none;
+  position: absolute;
+  max-width: 100%;
+  min-height: 100%;
+  background-image: url(images/background.svg);
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 4em;
+  font-family: 'Roboto', sans-serif;
+  color: gray;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+  color: #555;
+  text-align: left;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 769px;
+}
+
+#mysection1 {
+  margin: auto;
+  padding-top: 1em;
+  padding-bottom: 5em;
+}
+
+/************** footer ************/
+
+.link {
+  background-color: rgb(112, 176, 177);
+  padding: 30px;
+}
+
+.link a, p{
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12pt;
+  font-family: 'Merriweather Sans', sans-serif;
+  line-height: 3em;
+  letter-spacing: 2px;
+}
+
+.link a:hover {
+  color: #555;
+}
+
+/************** header ************/
+header {
+  background-color: rgb(112, 176, 177);
+  padding: 30px;
+}
+
+
+/************ navigation **************/
+.nav {
+margin-top: 20px;
+margin-bottom: 20px;
+text-align: center;
+}
+
+.nav ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  background-color: rgb(112, 176, 177);
+  font-size: 16px;
+  color: white;
+  display: block;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 400;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: solid;
+}
+
+.nav ul li a:hover {
+  font-weight: 400;
+  background-color: whitesmoke;
+  color: #555;
+  border-color: whitesmoke;
+
+
+/************** header ************/
+header {
+  background-color: rgb(112, 176, 177);
+  padding: 50px;
+}
+
+@media only screen and (min-width: 600px) {
+  #container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 1366px;
+  }
+  #overlayTwo {
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    padding-top: 10em;
+    padding-left: 5em;
+    padding-right: 5em;
+    margin-left: 20em;
+    display: none;
+    position: absolute;
+    max-width: 455px;
+    min-height: 100%;
+    background-image: url(images/background.svg);
+    background-repeat: no-repeat;
+    z-index: 1;
+  }
+  #overlayThree {
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    padding-top: 10em;
+    padding-left: 5em;
+    padding-right: 5em;
+    margin-left: 30em;
+    display: none;
+    position: absolute;
+    max-width: 455px;
+    min-height: 100%;
+    background-image: url(images/background.svg);
+    background-repeat: no-repeat;
+    z-index: 1;
+  }
+  #overlay {
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    padding-top: 10em;
+    padding-left: 5em;
+    padding-right: 5em;
+    margin-left: 30em;
+    display: none;
+    position: absolute;
+    max-width: 455px;
+    min-height: 100%;
+    background-image: url(images/background.svg);
+    background-repeat: no-repeat;
+    z-index: 1;
+
+  }
+
+ 
+  /************** footer ************/
+.link {
+    background-color: rgb(112, 176, 177);
+    padding: 30px;
+}
+
+.link a, p{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12pt;
+    font-family: 'Merriweather Sans', sans-serif;
+    line-height: 3em;
+    letter-spacing: 2px;
+}
+
+.link a:hover {
+    color: #555;
+}
+/************** header ************/
+header {
+  background-color: rgb(112, 176, 177);
+  padding: 50px;
+}
+
+/************ navigation **************/
+.nav {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  }
+  
+  .nav ul li {
+    list-style-type: none;
+    display: inline;
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    background-color: rgb(112, 176, 177);
+    font-size: 16px;
+    color: white;
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 400;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid;
+  }
+  
+  .nav ul li a:hover {
+    font-weight: 400;
+    background-color: gray;
+    color: whitesmoke;
+    border-color: whitesmoke;
+  
+}
+

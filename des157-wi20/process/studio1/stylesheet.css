@@ -1,0 +1,115 @@
+* {
+	margin: 0; 
+	padding: 0;
+}
+
+/*********** body **********/
+
+body {
+    background-color: #faebd7;
+    margin: auto;
+    background-image: url(images/sortinghat.svg);
+    background-repeat: no-repeat;
+    background-position: 70%;
+    background-size: 480px;
+}
+
+h1 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    font-size: 60px;
+    letter-spacing: 3px;
+}
+
+h2 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    margin-bottom: 40px;
+}
+
+div {
+    position: relative;
+    left: 55%;
+    top: 280px;
+}
+
+div p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #faebd7;
+    line-height: 1.5em;
+}
+
+/*********** form ************/
+
+form { 
+    margin: auto; 
+    padding-left: 60px;
+    font-size: 16px;
+}
+
+input {
+    display: block; 
+    margin-bottom: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    outline: none;
+    margin-left: 200px;
+    border: none;
+	border-bottom: 6px solid white;
+    background: transparent;
+    padding: 10px 0px 20px 15px;
+    font-size: 16px;
+}
+.invisible { 
+    display: none;
+}
+.visible {
+    display: block;
+    position: fixed;
+    top: 160px;
+    left: 50px;
+    width: 400px;
+    padding: 50px;
+    color: #fff;
+    background-color: #555;
+}
+
+#click {
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: none;
+    background-color: #c39797;
+    padding: 15px 35px 15px 35px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 18px;
+}
+
+/************** footer ************/
+.link {
+    background-color: rgb(112, 176, 177);
+    padding: 30px;
+}
+
+.link a,p{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12pt;
+    font-family: 'Merriweather Sans', sans-serif;
+    line-height: 3em;
+    letter-spacing: 2px;
+}
+
+.link a:hover {
+    color: #555;
+}
