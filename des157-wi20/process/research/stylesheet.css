@@ -70,12 +70,12 @@ h2 {
 .paragraph p{
     font-family: 'Hind Siliguri', sans-serif;
     font-weight: 300;
-    font-size: 15pt;
+    font-size: 14pt;
     color:#555;
     text-align: justify;
-    line-height: 1.5em;
-    padding-left: 10%;
-    padding-right: 10%;
+    line-height: 1em;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .citations p{
