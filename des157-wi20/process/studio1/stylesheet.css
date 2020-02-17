@@ -113,3 +113,41 @@ input {
 .link a:hover {
     color: #555;
 }
+
+/************ navigation **************/
+.nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+    
+    .nav ul li {
+      list-style-type: none;
+      display: inline;
+    }
+    
+    .nav ul li a {
+      text-decoration: none;
+      background-color: rgb(112, 176, 177);
+      font-size: 16px;
+      color: white;
+      display: block;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-family: 'Merriweather Sans', sans-serif;
+      font-weight: 400;
+      display: inline;
+      margin-left: 10px;
+      margin-right: 10px;
+      border: solid;
+    }
+    
+    .nav ul li a:hover {
+      font-weight: 400;
+      background-color: whitesmoke;
+      color: #555;
+      border-color: whitesmoke;
+    
+    

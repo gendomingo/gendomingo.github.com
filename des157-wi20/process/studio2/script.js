@@ -4,31 +4,31 @@ var closeOne=document.querySelector('#closeOne');
 var closeTwo=document.querySelector('#closeTwo');
 var closeThree=document.querySelector('#closeThree');
 
-var topSpot=document.querySelector('#topSpot');
-var rightSpot=document.querySelector('#rightSpot');
-var leftSpot=document.querySelector('#leftSpot');
+var top=document.querySelector('#top');
+var right=document.querySelector('#right');
+var left=document.querySelector('#left');
 
-var overlay = document.querySelector('#overlay');
-var overlayTwo = document.querySelector('#overlayTwo');
-var overlayThree = document.querySelector('#overlayThree');
+var itemOne = document.querySelector('#itemOne');
+var itemTwo = document.querySelector('#itemTwo');
+var itemThree = document.querySelector('#itemThree');
 
-topSpot.addEventListener('click', function() {
-  overlay.style.display = 'block';
+top.addEventListener('click', function() {
+  itemOne.style.display = 'block';
 }, false);
 closeOne.addEventListener('click', function() {
-  overlay.style.display = 'none';
+  itemOne.style.display = 'none';
 }, false);
 
-leftSpot.addEventListener('click', function() {
-  overlayTwo.style.display = 'block';
+left.addEventListener('click', function() {
+  itemTwo.style.display = 'block';
 }, false);
 closeTwo.addEventListener('click', function() {
-  overlayTwo.style.display = 'none';
+  itemTwo.style.display = 'none';
 }, false);
 
-rightSpot.addEventListener('click', function() {
-  overlayThree.style.display = 'block';
+right.addEventListener('click', function() {
+  itemThree.style.display = 'block';
 }, false);
 closeThree.addEventListener('click', function() {
-  overlayThree.style.display = 'none';
+  itemThree.style.display = 'none';
 }, false);
