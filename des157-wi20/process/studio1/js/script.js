@@ -2,7 +2,7 @@
 (function(){
 	'use strict'
 	// listen for the submission of the form
-	document.getElementById("myform").addEventListener("submit", function(event){
+	document.getElementById("form").addEventListener("submit", function(event){
 		// prevent the default behavior
 		event.preventDefault();
 
@@ -20,13 +20,13 @@
 
 		//run a function to put the words into the madlib... Function below...
 		//Pass the array of words the user typed into the function
-		makeMadLib(words);
+		submit(words);
 
 	});
 
 	//This function takes an array input, then constructs the madlib, peppering
 	//in the user's words where necessary.
-	function makeMadLib(theWords){
+	function submit(theWords){
         const madlib = `Welcome to the Wizarding World, ${theWords[0]}! <br> 
         A ${theWords[1]} year old student at Hogwarts School, who loves to ${theWords[2]} and owns a ${theWords[3]}.
         <br>
@@ -37,7 +37,7 @@
 		const mlContainer = document.getElementById('madlib');
 
 		//Change the guts of the container to your madlib
-		mlContainer.innerHTML = `<p>${madlib}</p>`;
+		mlContainer.innerHTML = `<p>${placeholder}</p>`;
 
 		//change the class on the madlib container so you can see it.
 		mlContainer.setAttribute("class", "visible");
