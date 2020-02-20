@@ -4,26 +4,29 @@
         <meta charset="UTF-8">
         <title>Portal Page</title>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri:300,400,500,600,700|Merriweather+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
-        <link rel="stylesheet" href="stylesheet.css">
+        <link href="https://fonts.googleapis.com/css?family=Chivo:400,700|Jaldi:400,700|Julius+Sans+One&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="gstyles.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.min.js"></script>
     </head>
 
     <body>
         <header>
-            <div id="mySketch"></div>
+            <div id="sketch"></div>
+            <div id ="title">
             <h1>Genneviere Domingo</h1>
             <h2>DES 157 - Interaction Design 2 - Winter 2020</h2>
+            </div>
         </header>
 
-        <main class="content">
-            <section class="box">
+        <section id = "main">
+            <section class = "column">
                 <ul>
                     <li><h3>Final Project</h3>
                         <ol>
                             <li><a href="">Project title</a></li>
                         </ol>
                     </li>
+
                     <li><h3>Studios</h3>
                         <ol>
                             <li><a href="process/studio1/index.html">Madlibs</a></li>
@@ -34,7 +37,7 @@
                 </ul>
             </section>
 
-            <section class="box">
+            <section class = "column">
                 <ul>
                     <li><h3>Research</h3>
                         <ol>
@@ -42,6 +45,7 @@
                             <li><a href="process/research/academic.html">Academic Research</a></li>
                             <li><a href="process/research/audience.html">Audience Research</a></li>
                         </ol>
+
                     <li><h3>Development</h3>
                         <ol>
                             <li><a href="process/development/topic-brainstorm.html">Brainstorming Process</a></li>
@@ -52,7 +56,7 @@
                 </ul>
             </section>
 
-            <section class="box">
+            <section class = "column">
                 <ul>
                     <li><h3>Assignments</h3>
                         <ol>
@@ -64,16 +68,14 @@
                     </li>
                 </ul>
             </section>
-        </main>
+        </section>
 
-        <footer>
-            <footer class = "link">
-                <p><a href="mailto:gendomingo@ucdavis.edu">Email Me</a> 
-                    <br>
+        <footer class ="footer">
+                <p>
+                    <a href="mailto:gendomingo@ucdavis.edu">EMAIL ME</a> |
                    <a href="http://validator.w3.org/check?uri=referer">VALID HTML</a> |
                    <a href="https://jigsaw.w3.org/css-validator/check/referer">VALID CSS</a>
                </p>
-           </footer>
         </footer>
 
         <script src="js/script.js"></script>
