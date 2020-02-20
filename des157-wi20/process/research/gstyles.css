@@ -134,23 +134,22 @@ a {
     color: slategray;
 }
 
-.site{
+#site{
     text-decoration: none;
     list-style-type: none;
-    text-align: center;
+    text-align: right;
     letter-spacing: 2px;
     font-size: 16px;
     font-family: 'Jaldi', sans-serif;
-    color: black;
+    color: slategray;
 }
-.site a:hover {
-    background-color: rgb(224, 206, 91);
-    color: white;
+#site a:hover {
+    color: rgb(224, 206, 91);
 }
 
 /*********** Footer ************/
 
-.footer a, .site a:hover {
+.footer a:hover {
     color: rgb(224, 206, 91);
 }
 
