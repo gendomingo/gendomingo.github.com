@@ -95,7 +95,7 @@ ol, ul, a {
     color: rgb(224, 206, 91);
 }
 
-ol ul a:hover {
+.column ul li ol a:hover {
     text-decoration: underline;
     text-decoration-color: rgb(224, 206, 91);
 }
