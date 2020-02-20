@@ -5,7 +5,7 @@ function setup() {
   }
   
 function draw() {
-    background(247, 243, 240); 
+    background(255); 
     fill(random(255), random(255), random(255), random(255));
     ellipse(mouseX, height/2, mouseY/2+20, mouseY/2+20);
     stroke(255);
