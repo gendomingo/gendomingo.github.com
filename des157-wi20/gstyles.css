@@ -95,7 +95,7 @@ ol, ul, a {
     color: rgb(224, 206, 91);
 }
 
-#main .column ul li ol li a:hover {
+#main .column ul li ol a:hover {
     text-decoration: underline;
     text-decoration-color: rgb(224, 206, 91);
 }
@@ -111,7 +111,7 @@ ol, ul, a {
 }
 
 footer{
-    padding:25px 90px 25px 25px;
+    padding:25px 25px 25px 25px;
     border-top: 2px solid black;
     background-color: whitesmoke;
 }

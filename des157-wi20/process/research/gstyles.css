@@ -1,0 +1,174 @@
+article {
+    width: 900px;
+    margin: auto;
+    padding-bottom: 40px;
+    padding-top: 40px; 
+}
+
+.center img, .audience img{
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    margin-top: 1.5em;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-bottom: 1em;
+    line-height: 1.5em;
+    background: whitesmoke;
+}
+
+header{
+    border-bottom: 2px solid black;
+    padding: 0;
+    display:flex;
+}
+
+
+
+div{
+    background-color: whitesmoke;
+    position: relative;
+    flex:1;
+}
+
+div img{
+    float: right;
+    display: block;
+    margin-left: 500px;
+}
+
+div nav {
+    margin-left: auto;
+}
+
+/*********** Navigation Styles **********/
+#navbar ul {
+	list-style-type: none;
+}
+#navbar > ul {
+	display: flex;
+}
+nav ul {
+	list-style-type: none;
+}
+nav ul li a {
+	display: block;
+    color: black;
+    font-family: 'Noto Sans JP', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	text-align: right;
+	text-decoration: none;	
+}
+
+/*********** Drop Down Menus ************/
+
+#navbar {
+    position: relative;
+    display: inline-block;
+}
+  
+.submenu {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #f9f9f9;
+    min-width: 80px;
+    box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+.submenu a {
+    color: black;
+    padding: 20px 20px;
+    text-decoration: none;
+    display: block;
+  }
+  
+.submenu a:hover {
+    background-color: rgb(224, 206, 91);
+    padding: 10px;
+}
+  
+#navbar:hover .submenu {
+    display: block;
+  }
+  
+/*********** Typography ************/
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 1px;
+    padding-top: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgb(112, 176, 177);
+    padding-left: 50px;
+}
+
+
+h2 {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    font-weight: bold;
+}
+ 
+section p{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.3em;
+    color: slategray;
+    text-align: left;
+}
+
+
+a {
+    color: slategray;
+}
+
+.site{
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-family: 'Jaldi', sans-serif;
+    color: black;
+}
+.site a:hover {
+    background-color: rgb(224, 206, 91);
+    color: white;
+}
+
+/*********** Footer ************/
+
+.footer a, .site a:hover {
+    color: rgb(224, 206, 91);
+}
+
+.footer a, p{
+    text-decoration: none;
+    list-style-type: none;
+    text-align: right;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-family: 'Jaldi', sans-serif;
+    color: black;
+}
+
+footer{
+    padding:25px 25px 25px 25px;
+    border-top: 2px solid black;
+    background-color: whitesmoke;
+}
+
+
+

@@ -1,7 +1,7 @@
 function setup() {
     const myCanvas = createCanvas(800,250);
-    myCanvas.parent(mySketch);
-    rectMode(CENTER);
+    myCanvas.parent(sketch);
+    rectMode(center);
   }
   
 function draw() {
