@@ -1,11 +1,11 @@
 function setup() {
     const myCanvas = createCanvas(800,250);
-    myCanvas.parent(sketch);
-    rectMode(center);
+    myCanvas.parent("sketch");
+    rectMode(CENTER);
   }
   
 function draw() {
-    background(0); 
+    background(247, 243, 240); 
     fill(random(255), random(255), random(255), random(255));
     ellipse(mouseX, height/2, mouseY/2+20, mouseY/2+20);
     stroke(255);
