@@ -18,7 +18,7 @@
             roll2: 0,
             rollSum: 0,
             index: 0,
-            gameEnd: 55
+            gameEnd: 60
         }
 
         startGame.addEventListener("click", function(){
