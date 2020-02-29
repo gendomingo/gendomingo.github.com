@@ -1,156 +1,150 @@
+
+/*********** Main Structure ************/
 body {
-    margin-top: 1.5em;
     font-family: 'Noto Sans JP', sans-serif;
-    margin-bottom: 1em;
-    line-height: 1.5em;
     background: white;
 }
 
-article{
-    max-width: 800px;
-    margin: auto;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
 header{
-    border-bottom: 2px solid black;
-    padding: 0;
-    display:flex;
+    padding-bottom: 10px;
 }
 
-div{
-    flex: 1;
+img {
+	margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    max-width:100%;
+    height:auto;
 }
 
-/*********** Navigation Styles ************/
+.main {
+    margin-left: 100px;
+    font-size: 15px; 
+    padding-top: 20px;
+    padding-bottom: 100px;
+  }
+  
 
-.menu {
-    background-image: url("images/menu.svg");
-    background-repeat: no-repeat;
-    width: 40px;
-    height: 40px;
-    background-color: white;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-    margin-left: auto;
-    padding-left: 500px;
-}
-
-.dropdown-content{
-    display: none;
-    position: absolute;
-    right: 0;
-    min-width: 200px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+/*********** Navigation ************/
+.nav {
+    width: 130px;
+    position: fixed;
     z-index: 1;
-    background-color: white;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
+    top: 20px;
+    left: 10px;
+    background: rgb(112, 176, 177);
+    overflow-x: hidden;
+    padding: 8px 0;
+    
+  }
+  
+  .nav a {
+    padding: 6px 8px 6px 16px;
     text-decoration: none;
+    font-size: 20px;
+    color: white;
     display: block;
   }
   
-  .dropdown-content a:hover {
-    background-color: rgb(224, 206, 91);;
-    }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
+  .nav a:hover {
+    color: darkslategray;
   }
+  
+ 
 /*********** Typography ************/
 
 h1 {
     font-size: 40px;
     font-weight: 700;
-    text-align: left;
-    line-height: 1px;
-    padding-top: 40px;
+    line-height: 2px;
+    padding-top: 30px;
     font-weight: bold;
     letter-spacing: 2px;
     color: rgb(112, 176, 177);
+    text-align: center;
     padding-left: 50px;
 }
-
-
-h2 {
-    font-size: 20px;
-    font-weight: 500;
-    text-align: left;
-    font-weight: bold;
-}
  
-section p{
-    font-size: 15px;
-    font-weight: 300;
+h2 {
+    font-weight: 800;
+    font-size: 1.5em;
+    font-style: italic;
+    text-align: left;
+    padding-left: 0;
+    
+}
+
+p{
+    color: darkslategray;
     line-height: 1.3em;
-    color: slategray;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+article{
+    max-width: 700px;
+    margin: auto;
+    padding: 10px 0px 20px 10px;
+}
+
+article a:hover {
+    color: rgb(224, 206, 91);
+}
+
+aside a, aside p, .citation a, .citation p{
+    color: darkslategray;
+    line-height: 1.3em;
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 400;
     text-align: left;
 }
 
-.citation a{
-    color: slategray;
+aside a, aside p{
+    font-size: 14px;
+    padding-top: 0;
+    padding-bottom: 10px;
+
 }
 
-
-/*********** Image ************/
-img {
-	margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 20px;
-    padding-left: 90px;
-    max-width:70%;
-    height:auto;
+.citation a, .citation p{
+    font-size: 16px;
+    padding-right: 10px;
 }
+
 
 /*********** Footer ************/
 
-.footer a, p{
+.footer a {
     text-decoration: none;
     list-style-type: none;
-    text-align: right;
     letter-spacing: 2px;
-    font-size: 16px;
-    font-family: 'Jaldi', sans-serif;
-    color: black;
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
 }
 
-footer{
-    padding:20px 50px 0 0;
-    border-top: 2px solid black;
-    background-color: white;
+.footer{
+    padding: 30px 50px 20px 10px;
+    background-color: rgb(112, 176, 177);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+
 }
+
 
 .footer a:hover {
-    color: rgb(224, 206, 91);
+    color: black;
+    font-weight: bold;
 }
 
-/*********** Link Source ************/
 
-.site{
-    text-decoration: none;
-    list-style-type: none;
-    text-align: right;
-    letter-spacing: 2px;
-    font-size: 16px;
-    font-family: 'Jaldi', sans-serif;
-    color: slategray;
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
-    text-underline-position: under;
-    text-decoration-color: slategray;
-}
-.site a:hover {
-    color: rgb(224, 206, 91);
-}
-
-#comparativemain{
-    padding-bottom: 30px;
-    padding-top: 30px;
-}
+@media screen and (max-height: 450px) {
+    .nav {padding-top: 15px;}
+    .nav a {font-size: 18px;}
+  }
