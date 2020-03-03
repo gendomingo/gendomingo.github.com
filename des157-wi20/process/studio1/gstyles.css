@@ -1,0 +1,111 @@
+form {
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Jaldi', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color:#956226;
+    width: auto;
+    position: relative;
+    background-color:  #FFD9DB;
+    padding: 50px;
+    margin: 50px;
+  }
+
+div {
+    padding: 5px;
+    margin-left: 10%;
+}
+
+.diary {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 30%;
+}
+
+#click{
+    display: block;
+    position: relative;
+    background-color: #D8727A;
+    margin-left: 10%;
+    padding: 10px;
+    margin-top: 10px;
+}
+  
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+color: white;
+}
+
+
+input {
+    display: block; 
+    margin-bottom: 20px;
+    background-color: #FFFBDE;
+}
+
+.invisible { 
+    display: none;
+
+}
+
+.visible {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 80%;
+    width: 400px;
+    padding: 10px;
+    color: #fff;
+    background-image: url(images/diary2.svg);
+    background-repeat: no-repeat;
+    background-size: 500px 400px;
+
+}
+
+
+h1 {
+    text-align: left;
+    font-size: 60px;
+    font-family: 'Jaldi', sans-serif;
+    text-align:center;
+    color: burlywood;
+}
+
+main{
+    margin-bottom: 60px;
+    box-sizing: border-box;
+}
+
+
+    
+/*********** Footer ************/
+
+.footer a {
+    text-decoration: none;
+    list-style-type: none;
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+}
+
+.footer{
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+
+}
+
+
+.footer a:hover {
+    color: gray;
+    font-weight: bold;
+}
+
+
+

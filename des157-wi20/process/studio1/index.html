@@ -1,47 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700|Nunito+Sans&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="stylesheet.css">
-    <title>Genneviere Domingo Madlibs</title>
-  
-</head>
-<body>
-    <header>
-      </header>
-    
-    <h1>Welcome to the Wizarding World!</h1>
-    <h2>Create your Potterhead Profile</h2>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Madlibs</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Chivo:400,700|Jaldi:400,700|Julius+Sans+One&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="gstyles.css">
+    </head>
 
-    <div class="text" id="placeholder">
-    </div>
-    
-    <form id="form">
-   
-        <input type="text" placeholder="What is your name?" id="name">
-        <input type="text" placeholder="How old are you?" id="age">
-        <input type="text" placeholder="Favorite hobby?" id="hobby">
-        <input type="text" placeholder="Favorite pet?" id="pet">
-        <input type="text" placeholder="Characteristic?" id="adj">
+    <body>
+       <header>
+            <h1>Write a Diary!</h1>
+       </header>
 
-        <input type="submit" id="click" value="Submit your profile!">
+       <main>
+       
+        <form id="myform">
+
+        <div>
+            <label for="name">Name a thing</label><br>
+            <input type="text" name="thing" id="thing" required>
+        </div>
+
+        <div>
+            <label for="name">Name of your bestfriend</label><br>
+            <input type="text" name="name" id="name" required>
+        </div>
+
+        <div>
+            <label for="name">Name a place</label><br>
+            <input type="text" name="place" id="place" required>
+        </div>
+
+        <div>
+            <label for="name">Name your favorite hobby</label><br>
+            <input type="text" name="name" id="name" required>
+        </div>
+
+        <div>
+            <label for="name">Emotion?</label><br>
+            <input type="text" name="name" id="name" required>
+        </div>
+
+        <input type="submit" id="click" value="Update Your Diary">
 
     </form>
 
+    <div class="diary">
+        <div><img src="images/diary.svg" alt="diary" style="width:300%">
+      </div>
 
-    <footer>
-        <footer class="link">
-            <p><a href="mailto:gendomingo@ucdavis.edu">Email Me</a> 
-                <br>
-               <a href="http://validator.w3.org/check?uri=referer">VALID HTML</a> |
-               <a href="https://jigsaw.w3.org/css-validator/check/referer">VALID CSS</a>
-           </p>
-       </footer>
+    <div class="invisible" id="madlib">
+    </div>
+
+    </main>
+  
+    <footer class="footer">
+        <a href="mailto:gendomingo@ucdavis.edu">EMAIL ME</a> |
+        <a href="http://validator.w3.org/check?uri=referer">VALID HTML</a> |
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">VALID CSS</a>
     </footer>
 
-        <script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
+
 </html>
+

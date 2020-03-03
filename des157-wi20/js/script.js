@@ -8,7 +8,7 @@ function setup() {
 var endX = 0;
 
 function draw() {
-  background(241, 0, 102);
+  background(18, 78, 120);
 
   
   //top lines
