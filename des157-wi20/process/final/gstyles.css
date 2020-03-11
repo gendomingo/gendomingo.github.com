@@ -1,0 +1,293 @@
+/*********** main structure ************/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+
+img{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 30%;
+    margin-top: 15em;
+    
+}
+
+h3{
+    font-size: 1em;
+    text-align: center;
+    padding-top: 430px;
+    font-weight: 600;
+    color:  #c27e10;
+    padding-left: 30px;
+}
+
+section{
+    padding: 0;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+}
+
+label.logo{
+    font-family: 'Courgette', cursive;
+    font-size: 2.5em;
+    font-weight: thin;
+    color: white;
+    line-height: 80px;
+    padding: 0 100px;
+}
+
+/*********** navigation ************/
+nav ul{
+    float: right;
+    margin-right: 30px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    
+}
+
+nav ul li a{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    text-decoration: none;
+    list-style: none;
+}
+
+a.active, li a:hover{
+    background: #ffcc01;
+    transition: .5s;
+    color: darkslategray;
+}
+
+.checkbtn{
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 10em;
+    cursor: pointer;
+    display: block;
+}
+
+.checkbtn {
+    max-width: 30%;
+}
+
+#check{
+    display: none;
+}
+
+
+/*********** contact & about ************/
+
+/*** main structure ***/
+
+#aboutoverlay{
+    padding: 8% 20%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: none;
+    z-index:1;
+    background-color: rgba(183, 198, 139, .9);
+}
+
+#aboutclose, #contactclose{
+    position: absolute;
+    font-size: 2em;
+}
+
+#aboutclose{
+    top: 2em;
+    right: 4em;
+}
+
+#contactclose{
+    top: 5em;
+    right: 8em;
+}
+
+#contactoverlay{
+    padding: 15% 20%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+    z-index:1;
+    background-color: rgba(141, 182, 217,.7);
+}
+
+
+/*** typography ***/
+
+p {
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.5em;
+    color:  #3C250D;
+    padding: 20px 0;
+}
+
+h1{
+    font-weight: 700;
+    color: #F4F0CB;
+}
+
+h2{
+    font-size:2.5em;
+    font-weight: 700;
+    color: white;
+    text-align: center;   
+}
+
+
+
+
+/*** social media ***/
+
+#social a{
+    display: flex;
+    flex-direction: row;
+	font-size: 4em;
+    color:#50658C;
+    text-decoration: none;
+    justify-content: center;
+    padding: 1em 2em 1.3em 0;
+}
+
+#social a:hover{
+    color:  white;
+    background: none;
+}
+
+
+/*********** Footer ************/
+
+.footer a{
+    text-decoration: none;
+    list-style-type: none;
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: darkslategray;
+}
+
+.footer{
+    padding: 2em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+
+}
+
+
+.footer a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+/*********** different media ************/
+
+@media (max-width: 600px){
+    label.logo{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    header{
+        background-color: gray;
+    }
+
+    label.logo{
+        color: black;
+    }
+
+    img{
+        max-width: 60%;
+        margin-top: 12em;
+    }
+
+    .checkbtn{
+            display: block;
+    }
+    ul{
+        display: block;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        z-index: 100;
+        top: 80px;
+        left:-100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+            
+    }
+    
+    nav ul li a{
+        font-size: 20px;
+    }
+    
+    a:hover, a.active{
+        background: none;
+        color: #ffcc01;
+    }
+    
+    #check:checked ~ ul{
+        left: 0;
+    }
+
+    #aboutoverlay, #contactoverlay{
+        overflow: scroll;
+        position: fixed;
+    }
+
+    #social a{
+        display: flex;
+        flex-direction: column;
+        font-size: 4em;
+        
+    }
+    #social{
+        position: relative;
+        top: 0;
+        left: 30%;
+        height: 100%;
+        background: none;
+    }
+    #aboutclose, #contactclose{
+        top: 1em;
+        right: 1.5em;
+    }
+
+}
+
