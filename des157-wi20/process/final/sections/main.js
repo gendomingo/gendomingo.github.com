@@ -102,7 +102,7 @@
 
     const carbon = document.querySelector("#sketch1");
     function setup(){
-        const myCanvas = createCanvas(1200,500);
+        const myCanvas = createCanvas(windowWidth,500);
         frameRate(8);
         noStroke();
         myCanvas.parent(carbon);

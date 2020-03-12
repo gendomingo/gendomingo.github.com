@@ -11,9 +11,8 @@ body{
 }
 
 article{
+    padding: 5%;
     display: flex;
-    align-items:center;
-    justify-content: center;
     font-size: 15px;
     width: 100%;
     height: 100vh;
@@ -75,6 +74,12 @@ article:nth-child(7){
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-repeat: no-repeat;
 }
 
 /* article:nth-child(8){
@@ -97,6 +102,13 @@ article:nth-child(11){
 
 /*********** interaction effect structure ************/
 
+/***** Parallax 1 *****/
+
+#parallax1{
+    align-items:center;
+    justify-content: center;
+}
+
 /***** Parallax 2 and 6 *****/
 #button1, #button2{
     padding: 15px;
@@ -113,11 +125,17 @@ article:nth-child(11){
 }
 
 .answer2, .answer6{
-    text-align: left;
     line-height: 1.4em;
     font-size: 15px;
     padding-top: 20px;
     color: whitesmoke;
+}
+
+#parallax2, #parallax6{
+    align-items:left;
+    justify-content: left;
+    padding-top: 20%;
+    padding-left: 30%;
 }
 
 /***** Parallax 3 *****/
@@ -125,18 +143,20 @@ article:nth-child(11){
 /*** items ***/
 
 #parallax3{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
+display: flex;
+flex-direction: row;
+text-align: center;
+align-items:center;
+justify-content: center;
 }
 
 
 #parallax3 img {
-height: 25vh;
-width: auto;
+height: auto;
+width: 25%;
 transition: transform .2s;
 justify-content: space-evenly;
-padding: 10px 20px;
+padding: 5%;
 }
 
 
@@ -158,7 +178,7 @@ h3{
 }
 
 p{
-    width: 600px;
+    width: 60%;
     line-height: 1.3em;
     font-size: 15px;
 
@@ -168,7 +188,7 @@ p{
     color: darkslategray;
     padding: 10% 10%;
     position: absolute;
-    top: 90em;
+    top: 220%;
     left: 20%;
     right: 0;
     height: 60%;
@@ -190,6 +210,12 @@ p{
     font-size: 1.6em;
 }
 
+/***** Parallax 4 *****/
+
+#parallax4{
+    align-items:center;
+    justify-content: center;
+}
 
 /***** Parallax 7 *****/
 
@@ -198,6 +224,12 @@ p{
     text-align: center;
     font-size: 2em;
     position: absolute;
+
+}
+
+#parallax7{
+    align-items:center;
+    justify-content: center;
 }
 
 /***** Parallax 8 *****/
@@ -214,6 +246,8 @@ iframe{
 #parallax8{
     display:flex;
     flex-direction: column;
+    align-items:center;
+    justify-content: center;
 }
 
 #parallax8 h1 {
@@ -226,13 +260,16 @@ font-size: 3em;
     color:#F26321;
     text-align: center;
     font-size: 1.5em;
+    align-items:center;
+    justify-content: center;
 }
 
 /***** Parallax 10 *****/
 
 #parallax10 img{
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: auto;
+    
 }
 
 #parallax10 h1 {
@@ -241,14 +278,16 @@ font-size: 3em;
     font-size: 1.5em;
     text-align: center;
     font-weight: bold;
-    width: 400px;
+    width: 80%;
     
 }
 
 #parallax10{
-    padding: 20px;
+    padding: 20%;
     display:flex;
     flex-direction: column;
+    align-items:center;
+    justify-content: center;
 }
 
 /*********** portal page button ************/
@@ -346,7 +385,16 @@ footer{
 
 @media only screen and (max-width: 600px) {
 
+    #parallax3 img {
+        width: 49%;
+        padding: 5%;
+    }
 
+    #parallax3{
+        display: flex;
+    }
+
+/* 
     .answer2{
         font-size: 15px;
         width: 300px;
@@ -394,5 +442,7 @@ footer{
     }
 
     
+
+  */
+
 }
- 
