@@ -25,13 +25,20 @@ article{
 /*********** article background structure************/
 
 article:nth-child(1){
-    background-size: 100%;
+    background-position: 0% 0px;
+    background-size: auto;
     position:relative;
     background: url(images/forestry.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-repeat: no-repeat;
 }
 
 article:nth-child(2){
