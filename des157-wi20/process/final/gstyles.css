@@ -36,7 +36,6 @@ body{
 } */
 
 .click { 
-    position: fixed;
     font-size: 1em;
     text-align: center;
     font-weight: 600;
@@ -235,8 +234,7 @@ h2{
 
 
     label.logo{
-        font-size: 18px;
-        text-align: center;
+        font-size: 15px;
     }
 
     header{
