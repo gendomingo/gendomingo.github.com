@@ -138,3 +138,14 @@
     replant.addEventListener('mouseout', function(){
         replant.src = "images/seedlings.svg";
     });
+
+
+    //sources
+/*     const source = document.querySelector('.source');
+
+    source.addEventListener('click', function() {
+    sourceoverlay.style.display = 'block';
+    }, false);
+    source.addEventListener('click', function() {
+    sourceoverlay.style.display = 'none';
+    }, false); */

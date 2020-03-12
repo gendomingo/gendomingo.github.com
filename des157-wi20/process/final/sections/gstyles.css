@@ -129,7 +129,7 @@ height: 25vh;
 width: auto;
 transition: transform .2s;
 justify-content: space-evenly;
-padding: 0 20px;
+padding: 10px 20px;
 }
 
 
@@ -140,54 +140,53 @@ transform: scale(1.1);
 h2 {
     text-align: center;
     font-size: 3em;
-    line-height: 4em;
 }
 
 /*** overlay section ***/
 
-h4{
-    text-align: center;
+h3{
     font-size: 2em;
     line-height: 1.6em;
-    color:  #4e2c5d;
+
 }
 
 p{
     width: 600px;
     line-height: 1.3em;
-    text-align: center;
     font-size: 15px;
+
+}
+
+#tissueoverlay, #bookoverlay, #deskoverlay, #houseoverlay {
     color: darkslategray;
-}
-
-#tissueoverlay, #bookoverlay, #deskoverlay, #houseoverlay {
-    color: black;
-    padding: 3% 10%;
-    position: relative;
-    top: 0;
-    left: 0;
-    height: 200px;
+    padding: 10% 10%;
+    position: absolute;
+    top: 90em;
+    left: 20%;
+    right: 0;
+    height: 60%;
+    width: 60%;
     display: none;
+    border-radius: 20px;
     text-align: center;
-    border-radius: 15px;
 }
 
 
 #tissueoverlay, #bookoverlay, #deskoverlay, #houseoverlay {
-    background-color: rgba(254, 254, 255, .9);
+    background-color: rgba(254, 254, 255, .8);
 }
 
 #tissueclose, #bookclose, #deskclose, #houseclose {
     position: absolute;
-    top: 1em;
-    right: 1em;
+    top: 4em;
+    right: 4em;
     font-size: 1.6em;
 }
 
 
 /***** Parallax 7 *****/
 
-.text{
+#parallax7 h1{
     color: darkslategray;
     text-align: center;
     font-size: 2em;
@@ -210,6 +209,11 @@ iframe{
     flex-direction: column;
 }
 
+#parallax8 h1 {
+text-align: center;
+font-size: 3em;
+}
+
 /***** Parallax 9 *****/
 #parallax9{
     color:#F26321;
@@ -219,17 +223,18 @@ iframe{
 
 /***** Parallax 10 *****/
 
-img{
-    width: 90%;
-    height: 90%;
+#parallax10 img{
+    width: 80%;
+    height: 80%;
 }
 
-.text4{
+#parallax10 h1 {
     padding-top: 20px;
     color: darkslategray;
     font-size: 1.5em;
     text-align: center;
-    font-weight: 400;
+    font-weight: bold;
+    width: 400px;
     
 }
 
@@ -281,16 +286,29 @@ img{
 
 /*********** source ************/
 
-#source {
+/* .source {
     color:  #ff6961;
     font-weight: bold;
 }
 
-#source:hover {
+.source:hover {
     color: white;
     background-color: #ff6961;
   }
 
+#sourceoverlay {
+    color: darkslategray;
+    padding: 10% 10%;
+    position: relative;
+    height: 60%;
+    width: 60%;
+    display: none;
+    top: 300em;
+    left: 0;
+    border-radius: 20px;
+    text-align: center;
+}
+ */
 /*********** footer ************/
 
 .footer a, .footer p{
@@ -303,11 +321,12 @@ img{
 }
 
 
-.footer p{
+footer{
     padding: 30px 0px 40px 40px;
     bottom: 0;
     width: 100%;
     height: 20px;
+    background-color: white;
 
 }
 
@@ -320,12 +339,7 @@ img{
 
 @media only screen and (max-width: 600px) {
 
-    *{
-        box-sizing: border-box;
-    }
-    article{
-        width: 100%;
-    }
+
     .answer2{
         font-size: 15px;
         width: 300px;
@@ -344,16 +358,21 @@ img{
     }
 
     #tissueoverlay, #bookoverlay, #deskoverlay, #houseoverlay {
-        padding: 15% 5%;
-        position: relative;
-        width: 500px;
-        height: 260px;
-        z-index: 1;
-
+        padding: 15% 10%;
+        width: 70%;
+        height: 80%;
+        top: 90em;
     }
 
+    #tissueclose, #bookclose, #deskclose, #houseclose {
+        top: 1em;
+        right: 2em;
+        font-size: 1.6em;
+    }
+    
+
     p{
-        width: 400px;
+        width: 250px;
         font-size: 1em;
     }
 
