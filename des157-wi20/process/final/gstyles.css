@@ -233,17 +233,14 @@ h2{
         top: 70%;
     }
 
-
-    label.logo{
-        font-size: 30px;
-    }
-
     header{
         background-color: gray;
     }
 
     label.logo{
         color: black;
+        font-size: 25px;
+        padding-left: 5px;
     }
 
     .checkbtn{
