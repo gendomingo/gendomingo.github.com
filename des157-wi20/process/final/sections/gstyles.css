@@ -131,15 +131,16 @@ article:nth-child(12){
 
 
 /***** Parallax 2 and 6 *****/
-#button1, #button2{
-    padding: 15px;
+.button1, .button2{
+    padding: 20px;
     font-family: 'Spartan', sans-serif;
     background-color: whitesmoke;
     color: darkslategray;
     font-size: 15px;
+    margin: auto;
 }
 
-#button1:hover,#button2:hover{
+.button1:hover,.button2:hover{
     background-color: #848583;
     color: white;
     font-weight: bold;

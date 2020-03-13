@@ -10,8 +10,8 @@
     });
 
     //Some "Did you know facts" on section 2 and 6
-    const bttn = document.querySelector("#button1");
-    const btn = document.querySelector("#button2");
+    const bttn = document.querySelector(".button1");
+    const btn = document.querySelector(".button2");
     const answer2 = document.querySelector(".answer2");
     const answer6 = document.querySelector(".answer6"); 
 
