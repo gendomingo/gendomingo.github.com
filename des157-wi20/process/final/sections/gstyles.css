@@ -140,7 +140,7 @@ article:nth-child(11){
 #parallax2, #parallax6{
     align-items:left;
     justify-content: left;
-    padding-top: 15%;
+    padding-top: 10%;
     padding-left: 25%;
 }
 
@@ -265,10 +265,10 @@ font-size: 3em;
 #parallax10 h1 {
     padding-top: 20px;
     color: darkslategray;
-    font-size: 1.5em;
+    font-size: 3em;
     text-align: center;
     font-weight: bold;
-    width: 60%;
+    width: 80%;
     
 }
 
