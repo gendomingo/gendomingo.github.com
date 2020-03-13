@@ -140,12 +140,24 @@
     });
 
 
-    //sources
-/*     const source = document.querySelector('.source');
+    // Parallax11 Button
+    var thisButton = document.querySelector('.cube');
+    var textField = document.getElementById('solution');
+    var defaultButtonText = document.querySelector('.default-state span');
+    var defaultButton = document.querySelector('.default-state');
 
-    source.addEventListener('click', function() {
-    sourceoverlay.style.display = 'block';
-    }, false);
-    source.addEventListener('click', function() {
-    sourceoverlay.style.display = 'none';
-    }, false); */
+    thisButton.addEventListener('click',function(event){
+
+        if(textField.value != ''){
+            this.className = 'cube flip';
+        
+        } else {
+            defaultButtonText.innerHTML = 'Share your thoughts';
+            defaultButton.setAttribute('style','background-color: rgba(205,0,4,1.00');
+            setTimeout(function(){
+                defaultButtonText.innerHTML = 'donate';
+                defaultButton.removeAttribute('style');
+    
+            }, 2000);
+         }
+    });
