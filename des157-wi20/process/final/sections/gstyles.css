@@ -268,7 +268,8 @@ font-size: 3em;
     font-size: 1.5em;
     text-align: center;
     font-weight: bold;
-    width: 80%;
+    width: 60%;
+    height: 60%;
     
 }
 
@@ -280,8 +281,7 @@ font-size: 3em;
 
 /***** Parallax 11 *****/
 #parallax11{
-    display: flex;
-    flex-direction: column;
+   text-align: center;
 }
 
  
