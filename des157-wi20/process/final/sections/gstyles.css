@@ -257,8 +257,8 @@ font-size: 3em;
 /***** Parallax 10 *****/
 
 #parallax10 img{
-    width: 100%;
-    height: auto;
+    width: 60%;
+    height: 60%;
     
 }
 
@@ -269,7 +269,6 @@ font-size: 3em;
     text-align: center;
     font-weight: bold;
     width: 60%;
-    height: 60%;
     
 }
 
