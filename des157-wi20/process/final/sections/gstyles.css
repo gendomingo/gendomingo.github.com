@@ -120,15 +120,16 @@ article:nth-child(12){
     background-repeat: no-repeat;
     }
 
-}
+
 
 
 /*********** interaction effect structure ************/
 
+/***** Parallax 1 *****/
 
 /***** Parallax 2 and 6 *****/
 .button1, .button2{
-    padding: 20px;
+    padding: 15px;
     font-family: 'Spartan', sans-serif;
     background-color: whitesmoke;
     color: darkslategray;
@@ -144,7 +145,7 @@ article:nth-child(12){
 .answer2, .answer6{
     line-height: 1.4em;
     font-size: 15px;
-    padding-top: 20px;
+    padding-top: 15px;
     color: whitesmoke;
     width: 80%;
 }
@@ -152,7 +153,7 @@ article:nth-child(12){
 #parallax2, #parallax6{
     align-items:left;
     justify-content: left;
-    padding-top: 11%;
+    padding-top: 18%;
     padding-left: 25%;
     align-items:left;
 }
@@ -236,8 +237,6 @@ p{
     justify-content: center;
 }
 
-
-
 /***** Parallax 7 *****/
 
 #parallax7{
@@ -282,7 +281,7 @@ font-size: 3em;
 #parallax9{
     color:#F26321;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 16px;
     align-items:center;
     justify-content: center;
 }
@@ -295,10 +294,10 @@ font-size: 3em;
     
 }
 
-#parallax10 h1 {
+#parallax10 {
     padding-top: 20px;
     color: darkslategray;
-    font-size: 3em;
+    font-size: 1.5em;
     text-align: center;
     font-weight: bold;
     width: 90%;
@@ -320,21 +319,21 @@ font-size: 3em;
 
  
 /*********** portal page button ************/
-.portal{
+#portal {
     text-decoration: none;
     list-style-type: none;
-    letter-spacing: 2px;
     font-size: 14px;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    display: block;
-    background-color: darkslategray;
     padding: 10px;
+    background-color: gray;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 45%;
 }
 
-.portal:hover{
-    background-color: gray;
+#portal:hover{
+    background-color: darkslategray;
 }
 
 /*********** top button ************/
@@ -353,6 +352,8 @@ font-size: 3em;
     cursor: pointer;
     padding: 25px;
     border-radius: 4px;
+    align-items:center;
+    justify-content: center;
   }
   
   #topbutton:hover {
