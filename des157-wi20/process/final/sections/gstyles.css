@@ -103,10 +103,26 @@ article:nth-child(10){
 }
 
 article:nth-child(11){
-    background-color: #cbc4aa;
+    background-color: #D291BC;
 }
 
+article:nth-child(12){
+    background-size: 100%;
+    position:relative;
+    background: url(images/movement.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    }
 
+}
 
 
 /*********** interaction effect structure ************/
@@ -268,12 +284,12 @@ font-size: 3em;
     font-size: 3em;
     text-align: center;
     font-weight: bold;
-    width: 80%;
+    width: 90%;
     
 }
 
 #parallax10{
-    padding: 5%;
+    padding: 8%;
     display:flex;
     flex-direction: column;
 }
