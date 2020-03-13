@@ -289,18 +289,19 @@ font-size: 3em;
 /***** Parallax 10 *****/
 
 #parallax10 img{
-    width: 60%;
-    height: 60%;
+    width: 80%;
+    height: 80%;
     
 }
 
 #parallax10 {
     padding-top: 20px;
     color: darkslategray;
-    font-size: 1.5em;
+    font-size: 1em;
     text-align: center;
     font-weight: bold;
     width: 90%;
+    display:flex;
     
 }
 
